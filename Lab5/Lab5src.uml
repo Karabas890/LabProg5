@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Users/basti/IdeaProjects/Lab5/src</OriginalElement>
+  <nodes>
+    <node x="-170.0" y="64.0">commands.AddCommand</node>
+    <node x="724.0" y="138.0">parsers.CoordinatesParser</node>
+    <node x="2360.0" y="64.0">commands.ExecuteScriptCommand</node>
+    <node x="317.0" y="64.0">commands.CountLessThanHealthCommand</node>
+    <node x="937.0" y="138.0">application.CommandReader</node>
+    <node x="1539.0" y="138.0">parsers.DateValidator</node>
+    <node x="2076.0" y="138.0">data.Coordinates</node>
+    <node x="63.0" y="138.0">parsers.SpaceMarinesParser</node>
+    <node x="288.0" y="138.0">parsers.SpaceMarineParser</node>
+    <node x="1901.0" y="138.0">application.InputReader</node>
+    <node x="1352.0" y="138.0">parsers.ChapterParser</node>
+    <node x="1575.0" y="64.0">commands.RemoveByIdCommand</node>
+    <node x="1795.0" y="64.0">commands.HelpCommand</node>
+    <node x="1963.0" y="64.0">commands.RemoveHeadCommand</node>
+    <node x="1311.0" y="64.0">commands.FilterContainsNameCommand</node>
+    <node x="1126.0" y="64.0">commands.UpdateCommand</node>
+    <node x="507.0" y="138.0">application.CollectionManager</node>
+    <node x="2399.0" y="138.0">data.Chapter</node>
+    <node x="-170.0" y="138.0">parsers.LocalDateDeserializer</node>
+    <node x="1374.0" y="-15.0">commands.Command</node>
+    <node x="2189.0" y="64.0">commands.ClearCommand</node>
+    <node x="2860.0" y="64.0">commands.AddIfMinCommand</node>
+    <node x="157.0" y="64.0">commands.ExitCommand</node>
+    <node x="2584.0" y="64.0">commands.CommandCountLessThanHealth</node>
+    <node x="1146.0" y="138.0">data.AstartesCategory</node>
+    <node x="-6.0" y="64.0">commands.InfoCommand</node>
+    <node x="2249.0" y="138.0">data.Weapon</node>
+    <node x="593.0" y="64.0">commands.PrintFieldDescendingWeaponTypeCommand</node>
+    <node x="953.0" y="64.0">commands.ShowCommand</node>
+    <node x="2546.0" y="138.0">application.Main</node>
+    <node x="1722.0" y="138.0">data.SpaceMarine</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="commands.RemoveHeadCommand" target="commands.Command" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="2066.0" y="39.0" />
+      <point x="1433.0" y="39.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="commands.AddIfMinCommand" target="commands.Command" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="2949.0" y="39.0" />
+      <point x="1433.0" y="39.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="commands.ExecuteScriptCommand" target="commands.Command" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="2462.0" y="39.0" />
+      <point x="1433.0" y="39.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="commands.RemoveByIdCommand" target="commands.Command" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="1675.0" y="39.0" />
+      <point x="1433.0" y="39.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="commands.AddCommand" target="commands.Command" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="-98.0" y="39.0" />
+      <point x="1433.0" y="39.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="commands.InfoCommand" target="commands.Command" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="65.5" y="39.0" />
+      <point x="1433.0" y="39.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="commands.FilterContainsNameCommand" target="commands.Command" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="commands.CountLessThanHealthCommand" target="commands.Command" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="445.0" y="39.0" />
+      <point x="1433.0" y="39.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="commands.HelpCommand" target="commands.Command" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="1869.0" y="39.0" />
+      <point x="1433.0" y="39.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="commands.ShowCommand" target="commands.Command" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="1029.5" y="39.0" />
+      <point x="1433.0" y="39.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="commands.UpdateCommand" target="commands.Command" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="1208.5" y="39.0" />
+      <point x="1433.0" y="39.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="commands.PrintFieldDescendingWeaponTypeCommand" target="commands.Command" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="763.0" y="39.0" />
+      <point x="1433.0" y="39.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="commands.ExitCommand" target="commands.Command" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="227.0" y="39.0" />
+      <point x="1433.0" y="39.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="commands.CommandCountLessThanHealth" target="commands.Command" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="2712.0" y="39.0" />
+      <point x="1433.0" y="39.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="commands.ClearCommand" target="commands.Command" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="2264.5" y="39.0" />
+      <point x="1433.0" y="39.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.732686587573575" showDependencies="false" x="348.87552000000005" y="77.40016061935478" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

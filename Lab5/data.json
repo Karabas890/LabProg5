@@ -1,0 +1,87 @@
+[
+  {
+    "id": 10,
+    "name": "kek",
+    "coordinates": {
+      "x": 1.0,
+      "y": 8
+    },
+    "creationDate": "2023-03-16",
+    "health": 9,
+    "achievements": "kek",
+    "category": "SCOUT",
+    "weaponType": "COMBI_FLAMER",
+    "chapter": {
+      "name": "lol",
+      "parentLegion": "j"
+    }
+  },
+  {
+    "id": 9,
+    "name": "k",
+    "coordinates": {
+      "x": 5.0,
+      "y": 5
+    },
+    "creationDate": "2023-03-16",
+    "health": 5,
+    "achievements": "h",
+    "category": "APOTHECARY",
+    "weaponType": "FLAMER",
+    "chapter": {
+      "name": "lol",
+      "parentLegion": "h"
+    }
+  },
+  {
+    "id": 11,
+    "name": "hhhh",
+    "coordinates": {
+      "x": 100.0,
+      "y": 4
+    },
+    "creationDate": "2023-03-17",
+    "health": 90,
+    "achievements": "l",
+    "category": "SCOUT",
+    "weaponType": "BOLT_RIFLE",
+    "chapter": {
+      "name": "jh",
+      "parentLegion": "jj"
+    }
+  },
+  {
+    "id": 12,
+    "name": "t",
+    "coordinates": {
+      "x": 1.0,
+      "y": 1
+    },
+    "creationDate": "2023-03-30",
+    "health": 1,
+    "achievements": "e",
+    "category": "SCOUT",
+    "weaponType": "BOLT_RIFLE",
+    "chapter": {
+      "name": "e",
+      "parentLegion": "f"
+    }
+  },
+  {
+    "id": 13,
+    "name": "lol",
+    "coordinates": {
+      "x": 1.0,
+      "y": 1
+    },
+    "creationDate": "2023-03-30",
+    "health": 1,
+    "achievements": "1",
+    "category": "SCOUT",
+    "weaponType": "BOLT_RIFLE",
+    "chapter": {
+      "name": "1",
+      "parentLegion": "1"
+    }
+  }
+]

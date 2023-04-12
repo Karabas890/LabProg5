@@ -1,0 +1,1 @@
+execute_script C:\Users\basti\IdeaProjects\Lab5\script6.txt
